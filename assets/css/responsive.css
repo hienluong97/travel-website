@@ -74,6 +74,10 @@
 
 /* smartphone & tablet & ipad */
 @media only screen and (max-width: 963px){
+   /*category*/
+    .category__wrap {
+        min-width: 350px;      
+    }
     .slider__background {
         display: none;   
     }
@@ -202,7 +206,7 @@
         width: calc( 100% - 90px );
     }
     .slider__background {        
-        height: 50vh;    
+        height:100%;     
     }        
     .slider__content {          
         padding: 20px 30px ; 
@@ -232,7 +236,7 @@
     .slider__intro {
         position: relative;
         width: 100%;  
-        height: 68vh;  
+        height:100%; 
     }    
     .slider__content {          
         padding: 60px 40px ; 
@@ -279,7 +283,7 @@
     .slider__intro {
         position: relative;
         width: 100%;
-        height: 75vh;    
+        height:100%;   
     }       
     .slider__content {          
         padding: 58px 30px ; 
@@ -321,25 +325,30 @@
         font-size: 12px;
         margin-left: 12px;
     }
+    /*category*/ 
+    .category__wrap {
+        width: 100px;      
+    }
     .slider__intro {
         position: relative;
         width: 100%; 
-        height: 70vh;       
+        height: 100%;      
     }   
     .slider__content {          
-        padding: 45px 30px ; 
+        padding: 10px 18px ;      
     }
     .slider__content >h1,
     .slider__content h2 {
-       font-size: 35px;  
+       font-size: 28px;  
     }
     .slider__content >p {
        padding-top: 12px;   
+       padding-bottom: 18px;
     }
     .left__btn, .right__btn {
-       font-size: 16px; 
+       font-size: 14px; 
        font-weight: 500;
-       padding: 6px 12px;         
+       padding: 4px 12px;         
     }
     .left__btn {    
         margin-right: 26px;

@@ -327,8 +327,8 @@
      margin-top: 12px;      
 }
 
-/*modal*/
-.modal {
+/*search__modal*/
+.search__modal {
     background:rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0px; 
@@ -343,12 +343,12 @@
 .display {
     display: flex !important; 
 }
-.modal__box {  
+.search__modal__box {  
     width: 80%; 
     display: flex; 
     flex-direction: column;      
 }
-.modal__container {
+.search__modal__container {
     display: flex;
     background-color: white;
     color: black ;   
@@ -373,10 +373,10 @@
     padding: 12px 24px;    
     text-align: center;    
 }
-.modal__closeicon {    
+.search__modal__closeicon {    
      margin-bottom: 10px;
 }
-.modal__closeicon i {
+.search__modal__closeicon i {
     font-size: 18px;
     color: white;
     padding: 6px 6px;
