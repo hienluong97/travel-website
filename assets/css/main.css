@@ -1,0 +1,188 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style-type: none;  
+}
+
+html {
+    font-family: 'Cairo', sans-serif;    
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+.container {
+    width: calc( 100% - 160px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-2 {
+    width: 50%;
+}
+.text-center {
+    text-align: center;
+}
+.text-red {
+    color: #ff4838;
+}
+.text-white {
+    color: white;
+}
+
+.pd-t8 {
+    padding-top: 80px;
+}
+
+.mgt110 {
+    margin-top: 110px;
+}
+
+.para {   
+    font-size: 16px;
+    padding-bottom: 40px;
+    color: #666;
+}
+
+.view__btn {
+    color: white;
+    background-color: #ff4838;
+    border:#ff4838 solid 2px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 24px;
+    cursor: pointer;
+}
+
+.view__btn:hover {
+    background-color: transparent;
+    color:#ff4838;
+    border:#ff4838 solid 2px;
+    cursor: pointer;
+}
+
+.slider__icon i {
+    font-size: 24px;
+    padding-left: 30px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.slider__icon i:hover {   
+    opacity: 1;
+}
+  
+.section__title>h2 {
+    font-size: 36px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 12px;
+}
+
+/*card*/
+.col-3card {
+    width: calc(( 100% - 108px) / 3);
+}
+.row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+}
+.tour__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -18px;
+    margin-right: -18px;
+}
+.tour__card { 
+    border-radius: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 48px;
+    box-shadow: rgb(235, 233, 233) 1px 1px 1px 1px;
+}
+.card__body {
+    background-color: #ffffff;    
+    line-height: 26px; 
+    padding: 18px 14px;  
+}
+.card__body__title a {
+    font-size: 18px;   
+    font-weight: 700;    
+    color: black;  
+}
+.card__body__title a:visited {   
+    color: black;
+}
+
+.card__img {
+    position: relative;
+}
+.card__img img {
+    width: 100%;  
+}
+.card__img__time {
+   position: absolute;
+   bottom: -12px;
+   left: 20px;
+   font-size: 16px;
+   font-weight: 600;  
+   padding: 8px 24px;
+   border-radius:30px 30px 0px 0px / 40px 40px 0px 0px; 
+   color: #fff;
+   background: #ff4838;  
+}
+.card__img__time i {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.card__book {
+    padding-top: 20px;
+    display: flex;
+}
+.book__box {
+    flex: 1;
+}
+.book__box a {
+    display: inline-block;
+}
+.book__btn {
+    color: #ff4838;
+    background-color: white;
+    border: #ff4838 solid 1px; 
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 6px 12px;   
+}
+.book__btn i {
+    font-size: 10px; 
+    padding-left: 4px;
+    font-weight: 700;  
+}
+
+.book__btn:visited {
+    color: #ff4838;   
+}
+.book__btn:hover {
+    color: white;
+    background-color:#ff4838;
+    border: #ff4838 solid 1px;
+    cursor: pointer;    
+}
+.book__value {
+    flex: 1;
+    font-size: 14px;
+    line-height: 22px;
+}
+.book__value p:first-child {   
+    font-size: 18px;
+}
+.book__value span {   
+    font-size: 18px;
+    font-weight: 900;
+    color: #ff4838;
+    padding-right: 6px;  
+}

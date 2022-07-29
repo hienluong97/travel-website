@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="./assets/css/style.css"> 
+    <link rel="stylesheet" href="./assets/css/responsive.css">       
+</head>
+
+<body>
+    <!--PC header-->
+    <div class="header">
+        <section class="top-bar">
+            <div class="container">
+                <div class="top-bar__row">
+                    <div class="">
+                        <ul class="top-bar__link__contact ">
+                            <li> <i class="ti-mobile"></i> <a href="telto:"> +0362890751</a></li>
+                            <li> <i class="ti-email"> </i> <a href="mailto:"> hienluong1997@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class=" top-bar__link__sale">
+                        <a href="#" class="">Back Friday Big Offer</a>
+                    </div>
+                    <div class="">
+                        <ul class="top-bar__link__listsns">
+                            <li><a href="#"><i class="top-bar__icon ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="top-bar__icon ti-pinterest"></i></a></li>
+                            <li><a href="#"><i class="top-bar__icon ti-sharethis-alt"></i></a></li>
+                            <li><a href="#"><i class="top-bar__icon ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="top-bar__icon ti-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="top-nav">
+            <div class="container">
+                <div class="top-nav__row">
+                    <div class="top-nav__logo">
+                        <a href=""><img src="./assets/img/header/logo.png" alt=""></a>
+                    </div>
+                    <div class="top-nav__menu">
+                        <ul>
+                            <li><a href="#">Home <span class="ti-plus"></span></a>
+                                <ul class="sub-menu">
+                                    <li> <a href="#">Style 1</a></li>
+                                    <li> <a href="#">Style 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Destination <span class="ti-plus"></span></a>
+                                <ul class="sub-menu">
+                                    <li> <a href="#">Destination</a></li>
+                                    <li> <a href="#">Destination detail</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Package <span class="ti-plus"></span></a>
+                                <ul class="sub-menu">
+                                    <li> <a href="#">Package</a></li>
+                                    <li> <a href="#">Package detail</a></li>
+                                    <li> <a href="#">Package standard</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Blogs <span class="ti-plus"></span></a>
+                                <ul class="sub-menu">
+                                    <li> <a href="#">Blog</a></li>
+                                    <li> <a href="#">Blog detail</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pages <span class="ti-plus"></span></a>
+                                <ul class="sub-menu">
+                                    <li> <a href="#">Pages detail</a></li>
+                                    <li> <a href="#">Pages standard</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-nav__icon">
+                        <i class="ti-layout-grid2" onclick="showCategory()"></i>
+                        <i class="ti-search" onclick="showCloseModal()"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--IPAD pro header-->
+    <div class="ip_header">
+        <section class="top-bar">
+            <div class="container">
+                <div class="top-bar__row">
+                    <div class=" top-bar__link__sale">
+                        <a href="#" class="">Back Friday Big Offer</a>
+                    </div>
+                    <div class="top-bar__link__listsns">
+                        <ul class="">
+                            <li><a href="#"><i class="top-bar__icon ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="top-bar__icon ti-pinterest"></i></a></li>
+                            <li><a href="#"><i class="top-bar__icon ti-sharethis-alt"></i></a></li>
+                            <li><a href="#"><i class="top-bar__icon ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="top-bar__icon ti-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="top-nav">
+            <div class="container">
+                <div class="top-nav__row">
+                    <div class="top-nav__logo">
+                        <a href=""><img src="./assets/img/header/logo.png" alt=""></a>
+                    </div>
+                    <div class="top-nav__icon">
+                        <i class="ti-layout-grid2" onclick="showCategory()"></i>
+                        <i class="ti-search" onclick="showCloseModal()"></i>
+                        <i class="ti-menu" onclick="showSpMenu()"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--smart phone menu sidebar-->
+    <div class="sp__menu__sidebar">
+        <div class="top-nav__menu">
+            <div class="menu__sidebar__closeicon">
+                <i class="ti-close" onclick="closeMenuSidebar()"></i>
+            </div>
+            <div class="top-nav__logo">
+                <a href=""><img src="./assets/img/header/logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="#">Home <span class="ti-plus"></span></a>
+                    <ul class="sub-menu">
+                        <li> <a href="#">Style 1</a></li>
+                        <li> <a href="#">Style 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Destination <span class="ti-plus"></span></a>
+                    <ul class="sub-menu">
+                        <li> <a href="#">Destination</a></li>
+                        <li> <a href="#">Destination detail</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Package <span class="ti-plus"></span></a>
+                    <ul class="sub-menu">
+                        <li> <a href="#">Package</a></li>
+                        <li> <a href="#">Package detail</a></li>
+                        <li> <a href="#">Package standard</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Blogs <span class="ti-plus"></span></a>
+                    <ul class="sub-menu">
+                        <li> <a href="#">Blog</a></li>
+                        <li> <a href="#">Blog detail</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Pages <span class="ti-plus"></span></a>
+                    <ul class="sub-menu">
+                        <li> <a href="#">Pages detail</a></li>
+                        <li> <a href="#">Pages standard</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>  
+
+    <!-- Category-->
+    <div class="category__sidebar">
+        <div class="category__wrap">
+            <div class="category">
+                <div class="category__top">
+                    <h4 class="category__title">Category</h4>
+                    <div class="category__closeicon">
+                        <i class="ti-close" onclick="closeCategory()"></i>
+                    </div>
+                </div>
+                <div class="category__listItems">
+                    <div class="category__item col-3">
+                        <a href="#" class="category__link">
+                            <div class="category__img">
+                                <img src="./assets/img/header/Category/cate1.svg" alt="">
+                            </div>
+                            <h5 class="item__title">Adventure</h5>
+                        </a>
+                    </div>
+    
+                    <div class="category__item col-3">
+                        <a href="#" class="category__link">
+                            <div class="category__img">
+                                <img src="./assets/img/header/Category/cate2.svg" alt="">
+                            </div>
+                            <h5 class="item__title">Group Tour</h5>
+                        </a>
+                    </div>
+    
+                    <div class="category__item col-3">
+                        <a href="#" class="category__link">
+                            <div class="category__img">
+                                <img src="./assets/img/header/Category/cate3.svg" alt="">
+                            </div>
+                            <h5 class="item__title">Couple Tour</h5>
+                        </a>
+                    </div>
+    
+                    <div class="category__item col-3">
+                        <a href="#" class="category__link">
+                            <div class="category__img">
+                                <img src="./assets/img/header/Category/cate4.svg" alt="">
+                            </div>
+                            <h5 class="item__title">Single Tour</h5>
+                        </a>
+                    </div>
+    
+                    <div class="category__item col-3">
+                        <a href="#" class="category__link">
+                            <div class="category__img">
+                                <img src="./assets/img/header/Category/cate5.svg" alt="">
+                            </div>
+                            <h5 class="item__title">Honeymoon</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MODAL-->
+    <div class="modal">
+        <div class="modal__box">
+            <div class="modal__closeicon">
+                <i class="ti-close" onclick="showCloseModal()"></i>
+            </div>
+            <div class="modal__container">
+                <div class="travel__detail">
+                    Destination
+                </div>
+                <div class="travel__detail">
+                    Destination
+                </div>
+                <div class="travel__detail">
+                    Destination
+                </div>
+                <div class="travel__detail">
+                    Destination
+                </div>
+                <div class="find-btn">
+                    <div class="btn">Find Now</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Slider-->
+    <div class="slider">
+        <div class="slider__background">            
+            <div class="background__img">
+                <img src="./assets/img/header/bg-highlight1.png" alt="">
+            </div>
+            <div class="background__img">
+                <img src="./assets/img/header/bg-highlight2.png" alt="">
+            </div>
+            <div class="background__img">
+                <img src="./assets/img/header/bg-highlight3.png" alt="">
+            </div>
+        </div>
+        <div class="slider__intro">
+            <img src="./assets/img/header/hero-bg1.png" alt="">
+            <div class="slider__overlay">
+                <div class="slider__content">
+                    <h1 class="slider__conntent__tille text-red">Move The </h1>
+                    <h2 class="sub-title">Earth</h2>
+                    <p class="para">
+                        Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus.
+                        Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                    </p>
+                    <div class="slider__btns">
+                        <a class="view__btn left__btn"> View Adventure</a>
+                        <a class="right__btn"> Take A Tour</a>
+                    </div>
+                </div>
+                <div class="go__btns">
+                    <div class="go__btn prev__btn" class="slick-prev  slick-arrow">
+                        <i class="ti-arrow-left"></i><span >Prev</span>
+                    </div>
+                    <div class="go__btn next__btn" class="slick-next slick-arrow">
+                        <span >Next</span><i class="ti-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section__tour container">
+        <div class="section__content pd-t8 ">
+            <div class="section__title">
+                <h2>Popular Tour Package</h2>
+                <p class="para">Duis rutrum nisl urna.
+                    Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus.
+                    Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                </p>
+            </div>
+            <div class="viewBox">
+                <a href="" class="view__btn">View all tour</a>
+            </div>
+        </div>
+        <div class="tour__cards">
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha1.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha2.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha3.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha4.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha5.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha6.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Explore-->
+    <div class="section__explore container">
+        <div class="section__content pd-t8 ">
+            <div class="section__title">
+                <h2>Explore Top Destination</h2>
+                <p class="para">Duis rutrum nisl urna.
+                    Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus.
+                    Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur..
+                </p>
+            </div>
+            <div class="slider__icon text-red">
+                <p> <i class="ti-arrow-circle-left prev__icon" ></i> <i class="ti-arrow-circle-right next__icon"></i></p>
+            </div>
+        </div>
+    </div>
+    <div class="slider__card">
+        <div class="slider__card--small">
+            <img src="./assets/img/Explore/dest-4.png" alt="">
+            <div class="slider__card--overlay"></div>
+            <div class="slider__card__body">
+                <a href="">
+                    <h2>Augburg</h2>
+                </a>
+                <p><span>16</span>Place <i class="ti-split-v-alt"></i> <span>19</span>Hotel </p>
+                <p> <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                        class="ti-star"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="slider__card--small">
+            <img src="./assets/img/Explore/dest-2.png" alt="">
+            <div class="slider__card--overlay"></div>
+            <div class="slider__card__body">
+                <a href="">
+                    <h2>Augburg</h2>
+                </a>
+                <p><span>16</span>Place <i class="ti-split-v-alt"></i> <span>19</span>Hotel </p>
+                <p> <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                        class="ti-star"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="slider__card--small">
+            <img src="./assets/img/Explore/dest-3.png" alt="">
+            <div class="slider__card--overlay"></div>
+            <div class="slider__card__body">
+                <a href="">
+                    <h2>Augburg</h2>
+                </a>
+                <p><span>16</span>Place <i class="ti-split-v-alt"></i> <span>19</span>Hotel </p>
+                <p> <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                        class="ti-star"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="slider__card--small">
+            <img src="./assets/img/Explore/dest-4.png" alt="">
+            <div class="slider__card--overlay"></div>
+            <div class="slider__card__body">
+                <a href="">
+                    <h2>Augburg</h2>
+                </a>
+                <p><span>16</span>Place <i class="ti-split-v-alt"></i> <span>19</span>Hotel </p>
+                <p> <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                        class="ti-star"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="slider__card--small">
+            <img src="./assets/img/Explore/dest-2.png" alt="">
+            <div class="slider__card--overlay"></div>
+            <div class="slider__card__body">
+                <a href="">
+                    <h2>Augburg</h2>
+                </a>
+                <p><span>16</span>Place <i class="ti-split-v-alt"></i> <span>19</span>Hotel </p>
+                <p> <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                        class="ti-star"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="slider__card--small">
+            <img src="./assets/img/Explore/dest-3.png" alt="">
+            <div class="slider__card--overlay"></div>
+            <div class="slider__card__body">
+                <a href="">
+                    <h2>Augburg</h2>
+                </a>
+                <p><span>16</span>Place <i class="ti-split-v-alt"></i> <span>19</span>Hotel </p>
+                <p> <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                        class="ti-star"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--SUBSCRIBE sub-->
+    <div class="section__sub__container mgt110">
+        <div class="section__sub__content container">
+            <div class="section__sub__body col-2">
+                <h1 class="">SUBSCRIBE OUR</h1>
+                <h1 class="text-red">NEWSLETTER</h1>
+                <p class="">Sign up to receive the best offers on promotion and coupons.
+                    Don’t worry! It’s not Spam
+                </p>
+                <div class="section__sub__box">
+                    <form action="">
+                        <input type="email" name="" id="" placeholder="Email here...">
+                        <div class="subBtn">SUBSCRIBE</div>
+                    </form>
+                </div>
+            </div>
+            <div class="section__sub__counter col-2">
+                <div class="counter__box">
+                    <div class="counter__box__body">
+                        <div class="counter__box__img">
+                            <img src="./assets/img/scr/counter-icon1.svg" alt="">
+                        </div>
+                        <div class="counter__box__number">
+                            <h1 class="">500+</h1>
+                            <p class="">Awesome Tour</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter__box">
+                    <div class="counter__box__body">
+                        <div class="counter__box__img">
+                            <img src="./assets/img/scr/counter-icon2.svg" alt="">
+                        </div>
+                        <div class="counter__box__number">
+                            <h1 class="">500+</h1>
+                            <p class="">Awesome Tour</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter__box">
+                    <div class="counter__box__body">
+                        <div class="counter__box__img">
+                            <img src="./assets/img/scr/counter-icon3.svg" alt="">
+                        </div>
+                        <div class="counter__box__number">
+                            <h1 class="">500+</h1>
+                            <p class="">Awesome Tour</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter__box">
+                    <div class="counter__box__body">
+                        <div class="counter__box__img">
+                            <img src="./assets/img/scr/counter-icon4.svg" alt="">
+                        </div>
+                        <div class="counter__box__number">
+                            <h1 class="">500+</h1>
+                            <p class="">Awesome Tour</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Holiday-->
+    <div class="section__holiday container">
+        <div class="section__content pd-t8 text-center">
+            <div class="section__title">
+                <h2>Choose Holiday Offer </h2>
+                <p class="para">Duis rutrum nisl urna.
+                    Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. </br>
+                    Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                </p>
+            </div>
+        </div>
+        <div class="tour__cards">
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha1.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha2.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha3.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha4.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha5.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour__card col-3card">
+                <div class="card__img">
+                    <a href="" class="">
+                        <img src="./assets/img/Popular Tour Package/p-alpha6.png" alt="">
+                    </a>
+                    <p class="card__img__time">
+                        <i class="ti-timer"></i>
+                        <span>2 Day & 1 Night</span>
+                    </p>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__body__title">
+                        <a href="#">Etiam Placerat Dictum Consequat
+                            An Pellentesque Habitant Morbi.
+                        </a>
+                    </h3>
+                    <div class="card__book">
+                        <div class="book__box">
+                            <a href="#" class="book__btn">BOOK NOW <i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="book__value">
+                            <p>from</p>
+                            <p><span>$49.00</span>Per Person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="viewBox text-center">
+            <a href="" class="view__btn">View all tour</a>
+        </div>
+    </div>
+
+    <!--travel-->
+    <div class="section__travel container">
+        <div class="section__content pd-t8 text-center">
+            <div class="section__title">
+                <h2>Travel Gallery </h2>
+                <p class="para">Duis rutrum nisl urna.
+                    Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. </br>
+                    Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                </p>
+            </div>
+        </div>
+        <div class="travel__photos">
+            <div class="travel__photo__box photo__item col-3card">
+                <img src="./assets/img/travel/g-xl1.png" alt="">
+                <div class="img_overlay">
+                    <a href="" class="travel__photo__body">
+                        <i class="ti-eye"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="travel__photo__box col-3card row2">
+                <div class="photo__item">
+                    <img src="./assets/img/travel/g-sm1.png" alt="">
+                    <div class="img_overlay">
+                        <a href="" class="travel__photo__body">
+                            <i class="ti-eye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="photo__item">
+                    <img src="./assets/img/travel/g-sm2.png" alt="">
+                    <div class="img_overlay">
+                        <a href="" class="travel__photo__body">
+                            <i class="ti-eye"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="travel__photo__box photo__item col-3card">
+                <img src="./assets/img/travel/g-xl3.png" alt="">
+                <div class="img_overlay">
+                    <a href="" class="travel__photo__body">
+                        <i class="ti-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="travel__photo__box photo__item col-3card">
+                <img src="./assets/img/travel/g-md1.png" alt="">
+                <div class="img_overlay">
+                    <a href="" class="travel__photo__body">
+                        <i class="ti-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="travel__photo__box photo__item col-3card">
+                <img src="./assets/img/travel/g-md2.png" alt="">
+                <div class="img_overlay">
+                    <a href="" class="travel__photo__body">
+                        <i class="ti-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="travel__photo__box photo__item col-3card">
+                <img src="./assets/img/travel/g-md3.png" alt="">
+                <div class="img_overlay">
+                    <a href="" class="travel__photo__body">
+                        <i class="ti-eye"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--client-->
+    <div class="client__container">
+        <div class="section__client container">
+            <div class="section__content pd-t8 ">
+                <div class="section__title text-white">
+                    <h2>What Our Client Say About Us</h2>
+                    <p class="para">Duis rutrum nisl urna.
+                        Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus.
+                        Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur..
+                    </p>
+                </div>               
+            </div>
+            <div class="client__cards">
+                <div class="client__card">
+                    <div class="client__card__overlay">
+                    </div>
+                    <div class="client__card__body">
+                        <div class="client__card__avatar">
+                            <img src="./assets/img/client/r-sm1.png" alt="">
+                        </div>
+                        <div class="client__card__top">
+                            <div class="qoute-icon ti-quote-left"></div>
+                            <div class="number">
+                                <span>01</span>
+                            </div>
+                        </div>
+                        <div class="client__card__text">
+                            <p>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus.
+                                Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                            </p>
+                        </div>
+                        <div class="client__card__footer">
+                            <div class="client__card__name">
+                                <p><span>Adam Groff</span> </br> Traveller</p>
+                            </div>
+                            <div class="client__card__vote text-red">
+                                <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                                    class="ti-star"></i><i class="ti-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="client__card">
+                    <div class="client__card__overlay">
+                    </div>
+                    <div class="client__card__body">
+                        <div class="client__card__avatar">
+                            <img src="./assets/img/client/r-sm2.png" alt="">
+                        </div>
+                        <div class="client__card__top">
+                            <div class="qoute-icon ti-quote-left"></div>
+                            <div class="number">
+                                <span>02</span>
+                            </div>
+                        </div>
+                        <div class="client__card__text">
+                            <p>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus.
+                                Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                            </p>
+                        </div>
+                        <div class="client__card__footer">
+                            <div class="client__card__name">
+                                <p><span>Adam Groff</span> </br> Traveller</p>
+                            </div>
+                            <div class="client__card__vote text-red">
+                                <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                                    class="ti-star"></i><i class="ti-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="client__card">
+                    <div class="client__card__overlay">
+                    </div>
+                    <div class="client__card__body">
+                        <div class="client__card__avatar">
+                            <img src="./assets/img/client/r-sm3.png" alt="">
+                        </div>
+                        <div class="client__card__top">
+                            <div class="qoute-icon ti-quote-left"></div>
+                            <div class="number">
+                                <span>03</span>
+                            </div>
+                        </div>
+                        <div class="client__card__text">
+                            <p>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus.
+                                Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                            </p>
+                        </div>
+                        <div class="client__card__footer">
+                            <div class="client__card__name">
+                                <p><span>Adam Groff</span> </br> Traveller</p>
+                            </div>
+                            <div class="client__card__vote text-red">
+                                <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i
+                                    class="ti-star"></i><i class="ti-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--guide-->
+    <div class="section__guide container">
+        <div class="section__content pd-t8 text-center">
+            <div class="section__title">
+                <h2>Tour Guide </h2>
+                <p class="para">Duis rutrum nisl urna.
+                    Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. </br>
+                    Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                </p>
+            </div>
+        </div>
+        <div class="guide__cards">
+            <div class="guide__card">
+                <div class="guide__card__img">
+                    <img src="./assets/img/guide/guide-md3.png" alt="">
+                    <div class="sns__icon">
+                        <ul class="sns__list">
+                            <li><a href="#"><i class="ti-instagram"></i></a></li>
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="guide__card__body">
+                    <h4>Marvin McKinney</h4>
+                    <p>Tour Guide</p>
+                </div>
+            </div>
+
+            <div class="guide__card">
+                <div class="guide__card__img">
+                    <img src="./assets/img/guide/guide-m2.png" alt="">
+                    <div class="sns__icon">
+                        <ul class="sns__list">
+                            <li><a href="#"><i class="ti-instagram"></i></a></li>
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="guide__card__body">
+                    <h4>Marvin McKinney</h4>
+                    <p>Tour Guide</p>
+                </div>
+            </div>
+
+            <div class="guide__card">
+                <div class="guide__card__img">
+                    <img src="./assets/img/guide/guide-md1.png" alt="">
+                    <div class="sns__icon">
+                        <ul class="sns__list">
+                            <li><a href="#"><i class="ti-instagram"></i></a></li>
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="guide__card__body">
+                    <h4>Marvin McKinney</h4>
+                    <p>Tour Guide</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--last news-->
+    <div class="section__news container">
+        <div class="section__content pd-t8 text-center">
+            <div class="section__title">
+                <h2>Latest News </h2>
+                <p class="para">Duis rutrum nisl urna.
+                    Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. </br>
+                    Suspendissendt blandit interdum. Sed pellentesque at nunc eget consectetur.
+                </p>
+            </div>
+        </div>
+        <div class="news__cards">
+            <div class="news__card">
+                <a href="">
+                    <div class="news__card__img">
+                        <img src="./assets/img/last news/blog-md-1.png" alt="">
+                        <div class="news__date">
+                            <p class=""><i class="ti-calendar"></i>Novembar 16, 2021</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="news__card__body">
+                    <div class="comment">
+                        <div class="comment__name">
+                            <a href="">
+                                <p class=""><i class="ti-user"></i>By join Smith</p>
+                            </a>
+                        </div>
+                        <div class="comment__text">
+                            <a href="">
+                                <p class=""><i class="ti-comment-alt"></i>Comment (08)</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news__title">
+                        <a href="">
+                            <p>In Tristique Ultrices Odio Quis Gravida. Pellentesque Euismod.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news__card">
+                <a href="">
+                    <div class="news__card__img">
+                        <img src="./assets/img/last news/blog-md-3.png" alt="">
+                        <div class="news__date">
+                            <p class=""><i class="ti-calendar"></i>Novembar 16, 2021</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="news__card__body">
+                    <div class="comment">
+                        <div class="comment__name">
+                            <a href="">
+                                <p class=""><i class="ti-user"></i>By join Smith</p>
+                            </a>
+                        </div>
+                        <div class="comment__text">
+                            <a href="">
+                                <p class=""><i class="ti-comment-alt"></i>Comment (08)</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news__title">
+                        <a href="">
+                            <p>In Tristique Ultrices Odio Quis Gravida. Pellentesque Euismod.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news__card">
+                <a href="">
+                    <div class="news__card__img">
+                        <img src="./assets/img/last news/blog-md-2.png" alt="">
+                        <div class="news__date">
+                            <p class=""><i class="ti-calendar"></i>Novembar 16, 2021</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="news__card__body">
+                    <div class="comment">
+                        <div class="comment__name">
+                            <a href="">
+                                <p class=""><i class="ti-user"></i>By join Smith</p>
+                            </a>
+                        </div>
+                        <div class="comment__text">
+                            <a href="">
+                                <p class=""><i class="ti-comment-alt"></i>Comment (08)</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news__title">
+                        <a href="">
+                            <p>In Tristique Ultrices Odio Quis Gravida. Pellentesque Euismod.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--footer-->
+    <div class="footer pd-t8">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__linksns">
+                    <p class="text-white">Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a
+                        id lectus.
+                        Suspendissendt molestie turpis nec lacinia vehicula.
+                    </p>
+                    <h4 class="link__title text-white">
+                        Follow Us On:
+                    </h4>
+                    <ul>
+                        <li><a href="#"><i class="ti-instagram"></i></a></li>
+                        <li><a href="#"><i class="ti-facebook"></i></a></li>
+                        <li><a href="#"><i class="ti-twitter"></i></a></li>
+                        <li><a href="#"><i class="ti-skype"></i></a></li>
+                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer__linkpage">
+                    <div class="footer__quicklink">
+                        <h4 class="link__title text-white">
+                            Quick Link
+                        </h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Tour Package</a></li>
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Tour Guide</a></li>
+                            <li><a href="#">Booking Process</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__tourtype">
+                        <h4 class="link__title text-white">
+                            Tour Type
+                        </h4>
+                        <ul>
+                            <li><a href="#">Wild & Adventure Tours</a></li>
+                            <li><a href="#">Group Tour</a></li>
+                            <li><a href="#">Seasonal Tours</a></li>
+                            <li><a href="#">Relaxation Tours</a></li>
+                            <li><a href="#">Family Friendly Tours</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__gallery">
+                    <h4 class="link__title text-white">
+                        Gallery
+                    </h4>
+                    <div class="gallery__photo">
+                        <div class="gallery__img">
+                            <a href="">
+                                <img src="./assets/img/Gallery/fg-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a href="">
+                                <img src="./assets/img/Gallery/fg-2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a href="">
+                                <img src="./assets/img/Gallery/fg-3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a href="">
+                                <img src="./assets/img/Gallery/fg-4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a href="">
+                                <img src="./assets/img/Gallery/fg-5.png" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a href="">
+                                <img src="./assets/img/Gallery/fg-6.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mgt110">
+            <div class="footer__contact">
+                <div class="contact__title">
+                    <h4>Contact Us:</h4>
+                </div>
+                <div class="contact__text">
+                    <i class="ti-mobile"></i>
+                    <a href="">+1 763-227-5032</a>
+                </div>
+                <div class="contact__text">
+                    <i class="ti-email"></i>
+                    <a href="">info@tourxpro.com</a>
+                </div>
+                <div class="contact__text contact__adr">
+                    <i class="ti-location-pin"></i>
+                    <a href=""> 2752 Willison Street Eagan, United State</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom__container">
+        <div class="footer__bottom container">
+            <div class="footer__author"> Copyright 2021 TourXPro | Design By Egens Lab</div>
+            <div class="footer__logo">
+                <img src="./assets/img/logo-w.png" alt="">
+            </div>
+            <div class="footer__Terms">
+                <p class="">Terms & Condition <span class="ti-split-v-alt"></span>
+                    Privacy Policy
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script> 
+    <script src="./index.js"></script>   
+    <script src="./slider.js"></script>   
+
+</body>
+
+</html>

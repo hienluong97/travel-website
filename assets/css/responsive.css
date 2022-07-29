@@ -1,0 +1,370 @@
+/* smartphone & tablet */
+@media only screen and (max-width: 736px){
+    .top-bar__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-bar__link__listsns { 
+        width: 100%;
+        display: none; 
+    } 
+
+    .category__sidebar {
+        height: 100%;
+        width: 100%; 
+    }
+    /*tour card*/
+    .tour__card {
+        width: 100%; 
+    }
+    /*travel */
+    .travel__photos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .travel__photo__box {    
+        width: 100%;   
+    }
+    .photo__item {        
+        width: 100%;
+        margin-bottom: 18px;
+    }
+     /*guide__card*/
+     .guide__cards {
+        display: flex;
+        justify-content: unset;
+        flex-wrap: wrap;
+    }
+    .guide__card {
+        width: 100%;
+        margin-bottom: 28px;     
+    }    
+    /*new*/
+    .news__cards {
+        display: flex;
+        justify-content: unset;
+        flex-wrap: wrap;
+    }
+    .news__card {
+        width: 100%;
+        margin-bottom: 28px;   
+    }     
+    .footer__linksns {        
+        width: 100%;         
+    }
+    .footer__linksns ul {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;     
+        margin-bottom: 28px;        
+    }
+    .footer__linkpage, .footer__gallery {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: left;
+        margin-bottom: 28px;
+    }
+    .footer__linkpage {
+        display: flex;
+        justify-content: space-between;
+    }  
+}
+
+/* smartphone & tablet & ipad */
+@media only screen and (max-width: 963px){
+    .slider__background {
+        display: none;   
+    }
+    /*tour card*/
+    .section__tour .section__content {
+        display: flex;
+        flex-direction: column;
+        align-items: unset;      
+    }
+    .section__tour .section__title {
+        flex: 1;
+    }
+    .section__tour .viewBox {
+        flex: 1;
+        text-align:unset;
+        margin-bottom: 24px;
+    }
+     .section__tour .viewBox a {    
+        float: unset;
+    }
+    /* sub */
+    .section__sub__content {
+        flex-direction: column;   
+    }
+    .section__sub__body {
+        width: 100%;
+        margin-bottom: 70px;
+        padding-right: 0px;
+    }
+    .section__sub__counter {
+        width: 100%;
+        padding-left: 0px;
+    }
+    /*slider__small card*/   
+    .slider__card { 
+        margin: 0px 45px;       
+        flex-wrap: wrap;
+        justify-content: unset;         
+    }
+    .slider__card--small {               
+        margin-bottom: 18px; 
+        margin-right: 18px;                     
+    } 
+    /*client card*/
+    .section__client .section__title {
+        width: 100%;
+    }  
+    .client__cards {       
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .client__card {
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    /*footer */
+    .footer__contact {    
+        display: flex;
+        justify-content: unset;
+        flex-wrap: wrap;
+     }
+    .footer__content {
+        display: flex;
+        flex-direction: column; 
+    }
+    .contact__text {
+        margin-right: 12px;
+    }
+    .contact__adr {
+        width: 100%;
+        margin-top: 24px;
+    }
+    .footer__bottom {        
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 8px;              
+    }
+    .footer__logo {
+        order: 1;
+        width: 100%;
+       text-align: center;
+    }
+}
+
+/* smartphone & tablet & ipad & ipadpro*/
+@media only screen and (max-width: 1179px) {
+    .top-nav {   
+        height: 70px;
+        line-height: 70px;       
+    }
+    .sp__menu__sidebar .top-nav__logo {
+        width: 70%;       
+    } 
+     /*slider__small card*/
+     .section__explore .section__content {
+        display: flex;        
+        justify-content:unset;
+        align-items: unset;
+    }
+    .section__explore .section__title {
+        width: 100%;
+    }   
+    .contact__title {
+        width: 100%;
+        margin-bottom: 24px;
+    } 
+}
+
+/*pc*/
+@media only screen and (min-width: 1180px){
+    .ip_header {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1179px) {
+    .header {
+        display: none;
+    }
+}
+
+/*ipad pro*/
+@media only screen and (min-width: 963px) and (max-width: 1179px) {
+    .container {
+        width: calc( 100% - 90px );
+    }
+    .slider__background {        
+        height: 50vh;    
+    }        
+    .slider__content {          
+        padding: 20px 30px ; 
+    }
+    .slider__content >h1 { 
+        font-size: 54px;       
+    }
+    .slider__content h2 {        
+        font-size: 54px; 
+    }  
+    .slider__card { 
+        margin: 0px 45px;       
+        flex-wrap: wrap;
+        justify-content: unset;         
+    }
+    .slider__card--small {          
+        margin-bottom: 18px; 
+        margin-right: 24px;               
+    }  
+}
+
+/*ipad*/
+@media only screen and (min-width: 736px) and (max-width: 963px) {
+    .container {
+        width: calc( 100% - 72px );
+    }    
+    .slider__intro {
+        position: relative;
+        width: 100%;  
+        height: 68vh;  
+    }    
+    .slider__content {          
+        padding: 60px 40px ; 
+    }
+    .go__btns {  
+        display: none;   
+    }
+    /*tour card*/   
+    .tour__card {
+        width: calc(( 100% - 72px) / 2); 
+    }    
+    /*slider__small card*/    
+    .slider__card { 
+        margin: 0px 45px;       
+        flex-wrap: wrap;
+        justify-content: unset;         
+    }  
+    /*footer */    
+    .footer__linksns, .footer__linkpage, .footer__gallery {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        text-align: center;
+        margin-bottom: 28px;
+    }     
+    .footer__author {
+        order: 2;
+    }    
+    .footer__Terms {
+        order: 3;
+    }    
+}
+
+/*tablet*/
+@media only screen and (min-width: 550px) and (max-width: 735px) {
+    .container {
+        width: calc( 100% - 72px );
+    }
+    .top-bar__link__sale {
+        width: 70%;  
+        margin-left: auto; 
+        margin-right: auto;   
+    }      
+    .slider__intro {
+        position: relative;
+        width: 100%;
+        height: 75vh;    
+    }       
+    .slider__content {          
+        padding: 58px 30px ; 
+    }
+    .go__btns {  
+        display: none;   
+    }   
+    .slider__card { 
+        margin: 0px 36px;       
+        flex-wrap: wrap;
+        justify-content: unset;         
+    }     
+    /*footer */          
+    .footer__author {
+        order: 2;
+    }
+    .footer__Terms {
+        order: 3;
+    }    
+}
+
+ /*mobile*/
+@media only screen and (max-width: 549px) {
+    .container {
+        width: calc( 100% - 30px );
+    } 
+    .top-bar__link__sale {
+        width: 90%;  
+        margin-left: auto; 
+        margin-right: auto;   
+    }    
+    .top-nav__logo {
+        width: 50%;       
+    }
+    .ip_header .top-nav__row {
+        display: flex;        
+    }     
+    .top-nav__icon i {
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    .slider__intro {
+        position: relative;
+        width: 100%; 
+        height: 70vh;       
+    }   
+    .slider__content {          
+        padding: 45px 30px ; 
+    }
+    .slider__content >h1,
+    .slider__content h2 {
+       font-size: 35px;  
+    }
+    .slider__content >p {
+       padding-top: 12px;   
+    }
+    .left__btn, .right__btn {
+       font-size: 16px; 
+       font-weight: 500;
+       padding: 6px 12px;         
+    }
+    .left__btn {    
+        margin-right: 26px;
+    }
+    .go__btns {  
+        display: none;   
+    }
+    /*slider__small card*/
+    .slider__card { 
+        margin: 0px 36px;       
+        flex-wrap: wrap;
+        justify-content: unset;         
+    }  
+    /*footer */
+    .contact__title {
+        width: 100%;
+        margin-bottom: 24px;
+    }  
+    .footer__author {
+        order: 3;
+        text-align: center;
+    }
+    .footer__Terms {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }    
+}
