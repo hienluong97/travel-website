@@ -113,7 +113,8 @@ html {
     font-weight: 700;    
     color: black;  
 }
-.card__body__title a:visited {   
+
+.card__body__title a:hover, .card__body__title a:visited {   
     color: black;
 }
 
