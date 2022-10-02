@@ -93,7 +93,7 @@
     .section__tour .viewBox {
         flex: 1;
         text-align:unset;
-        margin-bottom: 24px;
+        margin-bottom: 22px;
     }
      .section__tour .viewBox a {    
         float: unset;
